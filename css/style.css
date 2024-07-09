@@ -13,6 +13,11 @@ img{
     max-width: 100%;
     height: auto;
 }
+p{
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 400;
+}
 .header-area{
     background-image: url('../assets/Hero-bg.png');
     background-position: center;
@@ -27,8 +32,8 @@ img{
     align-items: center;
     height: 700px;
 }
-.header-content h2{
-    font-size: 40px;
+.header-content h1{
+    font-size: 38px;
     font-weight: bold;
     width: 80%;
     text-align: center;
@@ -36,13 +41,12 @@ img{
     line-height: 75px;
 }
 .header-content p{
-    color: rgb(13, 19, 33);
-    font-size: 14px;
-    font-weight: 600;
+   
     line-height: 26px;
     text-align: center;
+    opacity: 0.7;
     width: 70%;
-    margin: 0 auto 20px;
+    margin: 0 auto 30px;
 }
 .header-content button{
     padding: 18px 35px;
@@ -52,5 +56,69 @@ img{
     font-size: 16px;
     font-weight: 700;
     border-radius: 5px;
+    cursor: pointer;
+}
+/* Header Area End */
+.container{
+    max-width: 85%;
+    margin: 100px auto;
+}
+.web-development-area{
+    background: rgba(13, 19, 33, 0.02);
+    padding-bottom: 80px;
+}
+.web-dev-title{
+    text-align: center;
+    padding: 80px 0;
+}
+.web-dev-title h2{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+.web-dev-title p{
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 400;
+    width: 70%;
+    margin: 20px auto 20px;
+    opacity: 0.7;
+}
+.web-dev-box{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    width: 80%;
+    margin: 50px auto;
+    padding: 60px 40px 80px;
+    border-radius: 10px;
+}
+.web-dev-box h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 80%;
+}
+.web-dev-box p{
+    color: rgb(13, 19, 33);
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 30px 0;
+    width: 80%;
+}
+.web-dev-box button{
+    padding: 16px 36px;
+    border: 2px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    background-color: transparent;
+    color: #000;
+    font-size: 18px;
+    font-weight: 800;
     cursor: pointer;
 }
