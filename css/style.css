@@ -18,6 +18,12 @@ p{
     font-size: 14px;
     font-weight: 400;
 }
+a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
 .header-area{
     background-image: url('../assets/Hero-bg.png');
     background-position: center;
@@ -131,3 +137,35 @@ p{
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
 }
+/* inspire area end */
+
+.target-area{
+    margin-top: 40px;
+}
+.card-box{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+.css-bg{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.js-bg{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.card img{
+    padding: 20px 0;
+}
+.card p{
+    padding: 20px 0;
+}
+.card a{
+    border-bottom: 2px solid #000;
+}
+/* target area end */
