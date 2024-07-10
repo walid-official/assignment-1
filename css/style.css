@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: "Azeret Mono", monospace;
+    font-family: Azeret Mono;
 }
 img{
     max-width: 100%;
@@ -17,6 +17,7 @@ p{
     color: rgb(13, 19, 33);
     font-size: 14px;
     font-weight: 400;
+    line-height: 30px;
 }
 a{
     text-decoration: none;
@@ -24,44 +25,72 @@ a{
     font-size: 16px;
     font-weight: 700;
 }
-.header-area{
+/* Navber Area start */
+.navber-area{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.navber-area a{
+    font-size: 28px;
+    display: block;
+    padding-top: 10px;
+}
+.navber-area button{
+    padding: 16px 36px;
+    border: 2px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    background-color: transparent;
+    color: #000;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .5s;
+}
+.navber-area button:hover{
+    background-color: rgb(13, 19, 33);
+    color:rgb(255, 255, 255);
+}
+.hero-area{
     background-image: url('../assets/Hero-bg.png');
     background-position: center;
     background-size: cover;
     width: 100%;
     height: 720px;
 }
-.header-content{
+.hero-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 700px;
 }
-.header-content h1{
+.hero-content h1{
     font-size: 38px;
     font-weight: bold;
     width: 80%;
     text-align: center;
     margin: 20px auto;
-    line-height: 75px;
+    line-height: 65px;
 }
-.header-content p{
-   
-    line-height: 26px;
+.hero-content p{
     text-align: center;
     opacity: 0.7;
-    width: 70%;
+    width: 65%;
     margin: 0 auto 30px;
+    font-weight: 600;
 }
-.header-content a{
+.hero-content a{
     padding: 18px 35px;
     border: none;
-    background-color: #000;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
     color: #fff;
     font-size: 16px;
-    font-weight: 700;
-    border-radius: 5px;
+    font-weight: 600;
     cursor: pointer;
 }
 /* Header Area End */
@@ -112,10 +141,10 @@ a{
 }
 .web-dev-box p{
     color: rgb(13, 19, 33);
-    line-height: 26px;
-    letter-spacing: 0%;
+    font-size: 14px;
+    font-weight: 400;
     text-align: left;
-    margin: 30px 0;
+    margin: 20px 0;
     width: 80%;
 }
 .web-dev-box button{
