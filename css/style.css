@@ -91,9 +91,15 @@ a{
     border-radius: 8px;
     background: rgb(13, 19, 33);
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     cursor: pointer;
+    border: 3px solid rgb(13, 19, 33);
+    transition: .5s;
+}
+.hero-content a:hover{
+   background-color: transparent;
+   color: #000; 
 }
 /* Header Area End */
 .container{
@@ -255,6 +261,12 @@ a{
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+    border: 2px solid #fff;
+    transition: .5s;
+}
+.support-input input[type="submit"]:hover{
+    background-color: rgb(13, 19, 33);
+    color: #fff;
 }
 /* Support area end */
 .footer-area{
