@@ -25,7 +25,9 @@ a{
     font-size: 16px;
     font-weight: 700;
 }
+
 /* Navber Area start */
+
 .navber-area{
     display: flex;
     justify-content: space-between;
@@ -227,9 +229,7 @@ a{
     font-size: 14px;
 }
 .support-input{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+    text-align: center;
     padding: 0 0 80px;
 }
 .support-input input[type="text"]{
